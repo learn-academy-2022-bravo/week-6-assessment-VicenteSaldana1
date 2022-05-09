@@ -54,7 +54,11 @@ const sentenceArray = (array) => {
   })
 }
 
-
+// Test Result
+// PASS  ./code-challenges.test.js
+// sentenceArray
+//   ✓ takes in an array of objects and returns an array with a sentence about each person with their name capitalized. (1 ms)
+// Test Suites: 1 passed, 1 total
 
 // --------------------2) Create a function that takes in a mixed data array and returns an array of only the REMAINDERS of the numbers when divided by 3.
 
@@ -68,6 +72,10 @@ describe("remainderArray", () => {
       expect(remainderArray(hodgepodge2)).toEqual([2, 1, -1])
    })
 })
+
+// Test Result 
+// ● remainderArray › takes in a mixed data array and returns an array of only the REMAINDERS of the numbers when divided by 3.
+// ReferenceError: remainderArray is not defined
 
 
 // b) Create the function that makes the test pass.
@@ -108,6 +116,9 @@ describe("sumsCubed", () => {
    })
 })
 
+// Test Result 
+// ● sumsCubed › takes in an array of numbers and returns the sum of all the numbers cubed.
+// ReferenceError: sumsCubed is not defined
 
 
 // b) Create the function that makes the test pass.
@@ -124,3 +135,15 @@ const sumsCubed = (array) => {
     return cubedArray.reduce((a, b) => a + b)
 }
 
+
+// Test Result
+// PASS  ./code-challenges.test.js
+// sentenceArray
+//   ✓ takes in an array of objects and returns an array with a sentence about each person with their name capitalized. (1 ms)
+// remainderArray
+//   ✓ takes in a mixed data array and returns an array of only the REMAINDERS of the numbers when divided by 3 (1 ms)
+// sumsCubed
+//   ✓ takes in an array of numbers and returns the sum of all the numbers cubed
+
+// Test Suites: 1 passed, 1 total
+// Tests:       3 passed, 3 total
